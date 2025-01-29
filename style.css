@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.roster{
+    
+}
+
+.content{
+    box-shadow: 0 0 10px purple;
+   width: 50%;
+   margin: 100px auto;
+   padding: 10px 10px;
+   background-color: rgb(226, 225, 225);
+}
+
+.content h1{
+    margin: 20px 0;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+ margin: auto 0;
+    
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid purple;
+    box-shadow: 0 0 2px purple;
+    padding: 5px;
+}
+
+.head {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+  flex-direction: row;  
+  text-align: center;
+}
+
+table{
+    border-spacing: 50px 20px;
+}
+.note{
+    width: 80%;
+    margin: 20px 10px;
+    text-align: left;
+}
+
+.highlight{
+    background-color: rgba(128, 0, 128, 0.179);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+@media(max-width: 1100px) and (min-width: 600px) {
+    .content{
+       width: 80%;
+    }
+}
+
+@media(max-width: 590px) {
+    .content{
+        width: 90%;
+    }
+}
