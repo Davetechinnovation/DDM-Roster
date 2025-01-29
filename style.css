@@ -69,6 +69,7 @@ table{
 
 @media(max-width: 500px) {
     .content{
-        width: 100%;
+        width: 95%;
+        padding: 10px 5px;
     }
 }
